@@ -2,9 +2,11 @@
 .dotnet
 .git
 .ssh
+.lesshst
 .vscode-server
 .bash_history
 .bash_logout
 .bash_profile
 .bashrc
 .wget-hsts 
+keys.py
