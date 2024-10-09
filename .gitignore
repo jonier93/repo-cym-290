@@ -9,4 +9,5 @@
 .bash_profile
 .bashrc
 .wget-hsts 
+__pycache__
 keys.py
