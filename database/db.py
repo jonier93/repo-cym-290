@@ -24,3 +24,14 @@ def add_user(id, name, lastname, birthday):
         print("User added")
     except Exception as err:
         print("Error:", err)
+
+def consult_user(id):
+    instruction_sql = "SELECT * FROM db_users.users WHERE id="+id 
+    try:
+        cursor = connection.cursor()
+        cursor.execute(instruction_sql)
+        result = cursor.fetchall()
+        print("User consulted")
+        return result
+    except Exception as err:
+        print("Error:", err)

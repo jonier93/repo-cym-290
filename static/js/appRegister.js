@@ -1,1 +1,0 @@
-alert("Vista de registrar")
